@@ -1,0 +1,8 @@
+{
+  "env": {
+    "MONGO_DB_CONNECTION": "mongodb+srv://Shahab:shahabtest13@uw-node-class-pmpag.mongodb.net/journal_dev?retryWrites=true&w=majority",
+    "NODE_ENV": "development",
+    "PORT": 5000,
+    "SECRET_KEY": "MYSECRETKEY"
+  }
+}

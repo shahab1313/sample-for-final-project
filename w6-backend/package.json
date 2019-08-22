@@ -1,0 +1,28 @@
+{
+  "name": "w6-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "debug": "nodemon --inspect app.js",
+    "dev": "nodemon app.js",
+    "lint": "standard --verbose --fix | snazzy",
+    "reset-db": "node ./db/seeds"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "snazzy": "^8.0.0",
+    "standard": "^13.0.2"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.5"
+  }
+}
